@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="extras.css">
 
+    
+
 </head>
 
 <body>
@@ -26,25 +28,7 @@
         <div class="preload-content">
             <div id="original-load"></div>
         </div>
-    </div>
-
-    <!-- Subscribe Modal -->
-    <div class="subscribe-newsletter-area">
-        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <div class="modal-body">
-                        <h5 class="title">Subscribe to my newsletter</h5>
-                        <form action="#" class="newsletterForm" method="post">
-                            <input type="email" name="email" id="subscribesForm2" placeholder="Your e-mail here">
-                            <button type="submit" class="btn original-btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div>    
 
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
@@ -70,9 +54,9 @@
                     <!-- Top Social Area -->
                     <div class="col-12 col-sm-4">
                         <div class="top-social-area">
-                             
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+                            <a href="https://www.instagram.com/lucycosasricas/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/Lucycosasricas/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                              
                             
                         </div>
                     </div>
@@ -101,9 +85,9 @@
                     <!-- Classy Menu -->
                     <nav class="classy-navbar justify-content-between">
 
-                        <!-- Subscribe btn -->
+                        <!-- Pedido btn -->
                         <div class="subscribe-btn">
-                            <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Hacé tu Pedido</a>
+                            <a href="https://walink.co/71a92a" class="btn subscribe-btn" target="_blank">Hacé tu Pedido</a>
                         </div>
 
                         <!-- Navbar Toggler -->
@@ -124,30 +108,26 @@
                                     
                                     <li><a href="#">Productos</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a>
+                                            <li><a href="#">Panadería</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
+                                                    <li><a href="#">Pan</a></li>
+                                                    <li><a href="#">Criollos</a></li>
+                                                    <li><a href="#">Facturas</a></li>                                                
                                                 </ul>
                                             </li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
+                                            <li><a href="#">Pastlería</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="tortas.html">Tortas</a></li>
+                                                    <li><a href="#">Tartas</a></li>                                                    
+                                                    <li><a href="#">Deli</a></li>
+                                                    <li><a href="#">Postres Individuales</a></li>                                                
+                                                </ul>
+                                            </li>  
+                                            
+                                            <li><a href="#">Heladería</a></li>                                            
                                         </ul>
                                     </li>
-                                    <li><a href="#">Sobre Lucy</a></li>
+                                    <li><a href="#about">Sobre Lucy</a></li>
                                    
                                     <li><a href="contact.html">Contacto</a></li>
                                 </ul>
@@ -215,7 +195,7 @@
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Blog Wrapper Start ##### -->
-    <div class="blog-wrapper section-padding-100 clearfix">
+    <div class="blog-wrapper section-padding-100 clearfix" id="about">
         <div class="container">
             <div class="row align-items-end">
                 <!-- Single Blog Area -->
@@ -224,10 +204,12 @@
                         <!-- Blog Content -->
                         <div class="single-blog-content">
                             <div class="line"></div>
-                            <a href="#" class="post-tag">Lifestyle</a>
-                            <h4><a href="#" class="post-headline">Welcome to this Lifestyle blog</a></h4>
+                            <p class="post-tag">Panadería | Pastelería Artesanala | Heladería</p>
+                            <h4 class="post-headline">Sobre Lucy</h4>
                             <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum</p>
-                            <a href="#" class="btn original-btn">Read More</a>
+                            <div class="load-more-btn mt-100 wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1000ms">
+                                <a href="https://walink.co/71a92a" class="btn original-btn" target="_blank">Hacé tu Pedido</a>                        
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -259,49 +241,22 @@
                 <div class="col-12 col-lg-9">
 
                     <!-- Single Blog Area  -->
-                    <!-- <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1000ms">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6">
-                                <div class="single-blog-thumbnail">
-                                    <img src="img/blog-img/3.jpg" alt="">
-                                    <div class="post-date">
-                                        <a href="#">12 <span>march</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6"> -->
-                                <!-- Blog Content -->
-                                <!-- <div class="single-blog-content">
-                                    <div class="line"></div>
-                                    <a href="#" class="post-tag">Lifestyle</a>
-                                    <h4><a href="#" class="post-headline">Party people in the house</a></h4>
-                                    <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
-                                    <div class="post-meta">
-                                        <p>By <a href="#">james smith</a></p>
-                                        <p>3 comments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- Single Blog Area  -->
                     <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1000ms">
                         <div class="row align-items-center">
                             <div class="col-12 col-md-6">
                                 <div class="single-blog-thumbnail">
                                     <img src="img/blog-img/4.jpg" alt="">
-                                    <div class="post-date">
+                                    <!-- <div class="post-date">
                                         <a href="#">12 <span>march</span></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <!-- Blog Content -->
                                 <div class="single-blog-content">
                                     <div class="line"></div>
-                                    <a href="#" class="post-tag">Lifestyle</a>
-                                    <h4><a href="#" class="post-headline">We love colors in 2018</a></h4>
+                                    <p class="post-tag">Panadería | Pastelería Artesanala | Heladería</p>
+                                    <h4><a href="#" class="post-headline">Productos Elaborados con Amor</a></h4>
                                     <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
                                     <div class="post-meta">
                                         <p>By <a href="#">james smith</a></p>
@@ -393,129 +348,12 @@
                         </div>
                     </div>
 
-                    <!-- Load More -->
+                    <!-- Hacé tu pedido -->
                     <div class="load-more-btn mt-100 wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1000ms">
-                        <a href="#" class="btn original-btn">Read More</a>
+                        <a href="https://walink.co/71a92a" class="btn original-btn" target="_blank">Hacé tu Pedido</a>                        
                     </div>
-                </div>
-
-                <!-- ##### Sidebar Area ##### -->
-                <!-- <div class="col-12 col-md-4 col-lg-3">
-                    <div class="post-sidebar-area"> -->
-
-                        <!-- Widget Area -->
-                        <!-- <div class="sidebar-widget-area">
-                            <form action="#" class="search-form">
-                                <input type="search" name="search" id="searchForm" placeholder="Search">
-                                <input type="submit" value="submit">
-                            </form>
-                        </div> -->
-
-                        <!-- Widget Area -->
-                        <!-- <div class="sidebar-widget-area">
-                            <h5 class="title subscribe-title">Subscribe to my newsletter</h5>
-                            <div class="widget-content">
-                                <form action="#" class="newsletterForm">
-                                    <input type="email" name="email" id="subscribesForm" placeholder="Your e-mail here">
-                                    <button type="submit" class="btn original-btn">Subscribe</button>
-                                </form>
-                            </div>
-                        </div> -->
-
-                        <!-- Widget Area -->
-                        <!-- <div class="sidebar-widget-area">
-                            <h5 class="title">Advertisement</h5>
-                            <a href="#"><img src="img/bg-img/add.gif" alt=""></a>
-                        </div> -->
-
-                        <!-- Widget Area -->
-                        <!-- <div class="sidebar-widget-area">
-                            <h5 class="title">Latest Posts</h5>
-
-                            <div class="widget-content"> -->
-
-                                <!-- Single Blog Post -->
-                                <!-- <div class="single-blog-post d-flex align-items-center widget-post"> -->
-                                    <!-- Post Thumbnail -->
-                                    <!-- <div class="post-thumbnail">
-                                        <img src="img/blog-img/lp1.jpg" alt="">
-                                    </div> -->
-                                    <!-- Post Content -->
-                                    <!-- <div class="post-content">
-                                        <a href="#" class="post-tag">Lifestyle</a>
-                                        <h4><a href="#" class="post-headline">Party people in the house</a></h4>
-                                        <div class="post-meta">
-                                            <p><a href="#">12 March</a></p>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-                                <!-- Single Blog Post -->
-                                <!-- <div class="single-blog-post d-flex align-items-center widget-post"> -->
-                                    <!-- Post Thumbnail -->
-                                    <!-- <div class="post-thumbnail">
-                                        <img src="img/blog-img/lp2.jpg" alt="">
-                                    </div> -->
-                                    <!-- Post Content -->
-                                    <!-- <div class="post-content">
-                                        <a href="#" class="post-tag">Lifestyle</a>
-                                        <h4><a href="#" class="post-headline">A sunday in the park</a></h4>
-                                        <div class="post-meta">
-                                            <p><a href="#">12 March</a></p>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-                                <!-- Single Blog Post -->
-                                <!-- <div class="single-blog-post d-flex align-items-center widget-post"> -->
-                                    <!-- Post Thumbnail -->
-                                    <!-- <div class="post-thumbnail">
-                                        <img src="img/blog-img/lp3.jpg" alt="">
-                                    </div> -->
-                                    <!-- Post Content -->
-                                    <!-- <div class="post-content">
-                                        <a href="#" class="post-tag">Lifestyle</a>
-                                        <h4><a href="#" class="post-headline">Party people in the house</a></h4>
-                                        <div class="post-meta">
-                                            <p><a href="#">12 March</a></p>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-                                <!-- Single Blog Post -->
-                                <!-- <div class="single-blog-post d-flex align-items-center widget-post"> -->
-                                    <!-- Post Thumbnail -->
-                                    <!-- <div class="post-thumbnail">
-                                        <img src="img/blog-img/lp4.jpg" alt="">
-                                    </div> -->
-                                    <!-- Post Content -->
-                                    <!-- <div class="post-content">
-                                        <a href="#" class="post-tag">Lifestyle</a>
-                                        <h4><a href="#" class="post-headline">A sunday in the park</a></h4>
-                                        <div class="post-meta">
-                                            <p><a href="#">12 March</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- Widget Area -->
-                        <!-- <div class="sidebar-widget-area">
-                            <h5 class="title">Tags</h5>
-                            <div class="widget-content">
-                                <ul class="tags">
-                                    <li><a href="#">design</a></li>
-                                    <li><a href="#">fashion</a></li>
-                                    <li><a href="#">travel</a></li>
-                                    <li><a href="#">music</a></li>
-                                    <li><a href="#">party</a></li>
-                                    <li><a href="#">video</a></li>
-                                    <li><a href="#">photography</a></li>
-                                    <li><a href="#">adventure</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
+                    
+                    </div>                
                     </div>
                 </div>
             </div>
@@ -529,7 +367,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="insta-title">
-                        <h5>Follow us @ Instagram</h5>
+                        <h5>Seguinos en <a class="link" href="https://www.instagram.com/lucycosasricas/">@lucycosasricas</a> Instagram</h5>
                     </div>
                 </div>
             </div>
@@ -623,12 +461,9 @@
                                 <!-- Nav Start -->
                                 <div class="classynav">
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Lifestyle</a></li>
-                                        <li><a href="#">travel</a></li>
-                                        <li><a href="#">Music</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#about">Sobre Lucy</a></li>
+                                        <li><a href="contact.html">Contacto</a></li>
                                     </ul>
                                 </div>
                                 <!-- Nav End -->
@@ -638,12 +473,8 @@
                     
                     <!-- Footer Social Area -->
                     <div class="footer-social-area mt-30">
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/lucycosasricas/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/Lucycosasricas/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                      
                     </div>
                 </div>
             </div>
@@ -656,6 +487,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!-- ##### Footer Area End ##### -->
 
+    
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->

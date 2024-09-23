@@ -183,7 +183,7 @@ h2 {
 #modal-title {
   font-size: 18px;
   font-weight:500;
-  font-family: 'Open Sans';
+  font-family: "helveticaneuemedium";
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #FFF;
@@ -192,7 +192,7 @@ h2 {
 #modal-description {
   font-size: 16px;
   line-height: 1.4;  
-  font-family: 'Open Sans';
+  font-family: "helveticaneuemedium";
 }
 
 .close {
@@ -210,7 +210,7 @@ h2 {
 }
 
 .title-product {
-  font-family: 'Open Sans'; 
+  font-family: "OpenSans"; 
   text-transform: uppercase;  
 }
 
@@ -332,4 +332,117 @@ h2 {
 
 /* END WHATSAPP */ 
   
-  
+/* INSTAGRAM */
+
+/* Asegurando que la galería ocupe todo el ancho y sea responsiva */
+/* .instagram-feed-area {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.insta-title h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.instagram-slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.single-insta-feed {
+  position: relative;
+  width: 200px; 
+  height: 200px; 
+  margin: 0; 
+}
+
+.single-insta-feed img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 0; 
+  transition: transform 0.3s ease;
+}
+
+.single-insta-feed:hover img {
+  transform: scale(1.05);
+}
+
+.hover-effects {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-insta-feed:hover .hover-effects {
+  opacity: 1;
+}
+
+.hover-effects a {
+  color: white;
+  font-size: 2rem;
+} */
+
+/* Asegurando que la galería ocupe todo el ancho y sea responsiva */
+.instagram-feed-area {
+  /* width: 100%; */
+  /* padding: 20px 0; */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.insta-title h5 {
+  font-size: 1.5rem;
+  /* margin-bottom: 20px; */
+}
+
+.instagram-slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Asegura que las imágenes se alineen en filas */
+}
+
+.single-insta-feed {
+  position: relative;
+  width: 100%; /* Tamaño de la imagen */
+  height: 100%; /* Mantiene proporción cuadrada */
+  margin: 0; /* Elimina el margen entre imágenes */
+  padding: 0; /* Elimina cualquier padding adicional */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño del contenedor */
+}
+
+.single-insta-feed img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que las imágenes llenen el contenedor sin distorsión */
+  border-radius: 0; /* Elimina el borde redondeado */
+  transition: transform 0.3s ease;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hover: solo agranda la imagen */
+.single-insta-feed:hover img {
+  transform: scale(1.1); /* La imagen se agranda ligeramente */
+}
+
+/* Elimina completamente la cobertura al hacer hover */
+.hover-effects {
+  display: none;
+}
+
